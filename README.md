@@ -19,7 +19,7 @@ The optional ZIP contains the same mod JAR, instructions, license, changelog, an
 
 ## Pistol
 
-Equip the **Iron Pistol** in your main hand. **Left-click** fires one shot per press. **Hold right-click** to aim with centered sights and a narrower first-person view. You can shoot while aiming. Release right-click to lower the pistol.
+Equip the **Pistol** in your main hand. **Left-click** fires one shot per press. **Hold right-click** to aim with centered sights and a narrower first-person view. You can shoot while aiming. Release right-click to lower the pistol.
 
 Each shot deals **8 base damage**, has a **64-block range**, and uses a **0.5-second cooldown**. This alpha has unlimited ammunition. Shots strike the nearest living target along the crosshair and stop at solid collision surfaces. Armor and projectile protection apply. Firing includes camera recoil, a muzzle flash, a brief tracer, impact particles, and a vanilla sound report.
 
@@ -29,7 +29,6 @@ Each shot deals **8 base damage**, has a **64-block range**, and uses a **0.5-se
 
 Hold the **Night-Vision Goggles** and right-click to equip them, or move them into your inventory's **helmet slot**. Wearing them brightens dark surroundings and renders the scene in **green monochrome**. They work while aiming and shooting.
 
-To remove them, open your inventory and move the goggles from the helmet slot into an empty inventory slot. Normal colors and lighting return. Existing potion effects remain intact. The goggles occupy the helmet slot and provide no armor points.
 
 ![Night without the goggles](gallery/night-without-goggles.png)
 
@@ -43,24 +42,13 @@ To remove them, open your inventory and move the goggles from the helmet slot in
 | --- | --- |
 | Left-click with pistol | Fire one shot |
 | Hold right-click with pistol | Aim |
-| Right-click while holding goggles | Equip goggles |
-| Inventory helmet slot | Equip or remove goggles |
-| F5 | Cycle Minecraft's camera views |
 
-Minecraft's remapped Attack and Use bindings are respected. Aiming slows movement and prevents sprinting. Pistol firing works in first and third person; aiming zoom applies in first person.
 
-New and existing single-player worlds receive one pistol and one pair of goggles per player. Death respawns replace missing equipment. Keep Inventory retains existing items, including their custom names. A full inventory keeps delivery pending until a slot is available. Dropping a claimed item during ordinary play does not immediately grant a replacement.
 
-Both items are available in **Creative > Combat** and Creative search. With cheats enabled, use:
-
-```text
-/give @s iron_sidearm:iron_pistol
-/give @s iron_sidearm:night_vision_goggles
-```
 
 ## Compatibility
 
-Nightvision FPS is a standalone mod. Ashen Arena can be installed alongside it, and the two were tested together. Single-player is the supported environment for this alpha. Multiplayer, LAN, dedicated servers, shader packs, and other mod combinations have not been validated.
+Nightvision FPS is a standalone mod. Single-player is the supported environment for this alpha. Multiplayer, LAN, dedicated servers, shader packs, and other mod combinations have not been validated.
 
 When reporting bugs, include Minecraft and Fabric versions, reproduction steps, other installed mods, and relevant log excerpts with personal details removed.
 
