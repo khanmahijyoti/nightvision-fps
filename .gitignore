@@ -1,2 +1,9 @@
 *.jar
 *.zip
+build/
+dist/
+backups/
+test-instance/
+test-args.txt
+*.log
+*-result.txt

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "iron_sidearm",
+  "version": "0.1.0-alpha.3",
+  "name": "Nightvision FPS",
+  "authors": ["khanmahijyoti"],
+  "contact": {
+    "homepage": "https://github.com/khanmahijyoti/nightvision-fps",
+    "issues": "https://github.com/khanmahijyoti/nightvision-fps/issues"
+  },
+  "description": "A single-player pistol and wearable night-vision goggles. Left-click to fire; hold right-click to aim.",
+  "license": "LicenseRef-All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {"main": ["sidearm.SidearmMod"]},
+  "mixins": ["nightvision-fps.mixins.json"],
+  "depends": {"fabricloader": ">=0.20.1", "fabric-api": ">=0.166.0", "minecraft": "26.3", "java": ">=25"}
+}

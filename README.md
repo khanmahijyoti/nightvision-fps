@@ -64,9 +64,21 @@ Nightvision FPS is a standalone mod. Ashen Arena can be installed alongside it, 
 
 When reporting bugs, include Minecraft and Fabric versions, reproduction steps, other installed mods, and relevant log excerpts with personal details removed.
 
+## Build from source
+
+Use Windows PowerShell with Minecraft Java **26.3** installed in the default Minecraft directory. The build uses the installation's **Java 25** runtime and client libraries.
+
+1. Download the files listed in [deps/README.md](deps/README.md) into `deps`.
+2. Run `powershell -ExecutionPolicy Bypass -File .\build.ps1`.
+3. The compiled mod is written to `dist/nightvision-fps-0.1.0-alpha.3.jar`.
+
+The generated item models are included in `resources`. Python 3 is needed when editing and rerunning `build_pistol_model.py`.
+
+The integration-test harness in `test.ps1` and `test/sidearm` uses the original development paths under `E:/MinecraftPistol`, a disposable copy of the local `New World` save, and an optional Ashen Arena build under `E:/MinecraftArena`. Adapt these paths to run the harness on another machine.
+
 ## Rights
 
-All rights reserved under [LICENSE](LICENSE). This repository contains release documentation, screenshots, and downloads. Development source files are maintained separately.
+All rights reserved under [LICENSE](LICENSE). This branch contains the Java source, native resources, model generator, build script, and integration-test harness for 0.1.0-alpha.3.
 
 The mod references textures, sounds, and shaders supplied by the player's Minecraft installation. Its release contains original code, model definitions, language strings, and data files. All gallery images are gameplay captures.
 

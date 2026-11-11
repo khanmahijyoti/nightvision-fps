@@ -1,0 +1,6 @@
+{
+  "item.iron_sidearm.iron_pistol": "Iron Pistol",
+  "item.iron_sidearm.night_vision_goggles": "Night-Vision Goggles",
+  "death.attack.pistol_shot": "%1$s was shot by %2$s",
+  "death.attack.pistol_shot.item": "%1$s was shot by %2$s using %3$s"
+}
