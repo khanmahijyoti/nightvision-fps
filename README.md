@@ -1,18 +1,18 @@
-# Iron Sidearm
+# Nightvision FPS
 
 A single-player Minecraft Java mod with a semi-automatic pistol and wearable green night-vision goggles.
 
 **Alpha 0.1.0-alpha.3.** Requires Minecraft Java **26.3**, Fabric Loader **0.20.1 or newer**, Fabric API **0.166.0+26.3**, and Java **25 or newer**.
 
-Download the mod from [Releases](https://github.com/khanmahijyoti/iron-sidearm/releases). Report bugs through [Issues](https://github.com/khanmahijyoti/iron-sidearm/issues).
+Download the mod from [Releases](https://github.com/khanmahijyoti/nightvision-fps/releases). Report bugs through [Issues](https://github.com/khanmahijyoti/nightvision-fps/issues).
 
 ![Iron Pistol in first person](gallery/pistol.png)
 
 ## Install
 
 1. Install [Fabric Loader](https://fabricmc.net/use/installer/) for Minecraft **26.3**.
-2. Download [Fabric API](https://modrinth.com/mod/fabric-api) **0.166.0+26.3** and `iron-sidearm-0.1.0-alpha.3.jar` from this repository's Releases page.
-3. Put both JARs in your launcher's Minecraft `mods` folder. Keep one Iron Sidearm version installed at a time.
+2. Download [Fabric API](https://modrinth.com/mod/fabric-api) **0.166.0+26.3** and `nightvision-fps-0.1.0-alpha.3.jar` from this repository's Releases page.
+3. Put both JARs in your launcher's Minecraft `mods` folder. Keep one Nightvision FPS version installed at a time.
 4. Launch your Fabric profile and open a single-player world. A pistol and a pair of goggles arrive automatically when inventory space is available.
 
 The optional ZIP contains the same mod JAR, instructions, license, changelog, and screenshots. Extract it, then put the mod JAR in `mods`. Minecraft, Fabric Loader, and Fabric API are separate downloads.
@@ -60,7 +60,7 @@ Both items are available in **Creative > Combat** and Creative search. With chea
 
 ## Compatibility
 
-Iron Sidearm is a standalone mod. Ashen Arena can be installed alongside it, and the two were tested together. Single-player is the supported environment for this alpha. Multiplayer, LAN, dedicated servers, shader packs, and other mod combinations have not been validated.
+Nightvision FPS is a standalone mod. Ashen Arena can be installed alongside it, and the two were tested together. Single-player is the supported environment for this alpha. Multiplayer, LAN, dedicated servers, shader packs, and other mod combinations have not been validated.
 
 When reporting bugs, include Minecraft and Fabric versions, reproduction steps, other installed mods, and relevant log excerpts with personal details removed.
 
